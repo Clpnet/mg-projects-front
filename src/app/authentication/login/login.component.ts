@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit{
   constructor(route: ActivatedRoute, http:HttpClient ) { 
     this._router = route;
     this._http= http;
-    this.apiUrlList="http://localhost:9001/avengers";
+    this.apiUrlList="http://172.212.32.76/avengers";
     
 }
   ngOnInit(): void {
