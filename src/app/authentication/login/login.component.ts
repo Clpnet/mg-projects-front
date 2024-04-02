@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit{
   CargarDatos():void{
 
     this.hidden=false;
-    this._http.get(this.apiUrlList).subscribe(result =>{
+    this._http.get(this.apiUrlList).subscribe((result) =>{
       this.list= result;
     });
 
